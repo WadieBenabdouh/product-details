@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/rip1jzj.css");
 /* *{
     margin:0;
     padding:0;
@@ -8,6 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat",sans-serif;
 }
 .card{
     display: flex;
@@ -20,19 +23,30 @@ body{
 }
 #perfume{
     max-width: 15em;
-
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .card-desc{
     /* background-color: fuchsia; */
     width: 15em;
     display: flex;
     flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     /* outline: blue solid 2px; */
-    margin-inline: 15px;
     height: 22.3em;
+    background-color: #fff;
+}
+.card-desc > *{
+    margin-inline: 15px;
+}
+.card-desc h2{
+    margin-top: -5px;
+    color: hsl(212, 21%, 14%);
 }
 .card-desc p{
     margin-top: -5px;
+    font-size: 10px;
 }
 .price{
     display: flex;
@@ -41,14 +55,18 @@ body{
 }
 .price > :nth-child(2){
     margin-left: 20px;
+    margin-bottom: 23px;
+    font-size: 10px !important;
 }
 .card-desc a{
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 2px;
     border-radius: 10px;
-    background-color: #78d878;
-    margin-inline: 40px;
+    margin-inline: 20px;
     color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background: hsl(158, 36%, 37%);
 }
