@@ -1,0 +1,36 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    width: fit-content;
+    outline: red solid 2px;
+}
+.card-product{
+    width: 15em;
+}
+#perfume{
+    max-width: 15em;
+}
+.card-desc{
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    outline: blue solid 2px;
+    margin: 5px 15px;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price > :nth-child(2){
+    margin-left: 20px;
+}
