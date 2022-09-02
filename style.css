@@ -127,9 +127,11 @@ body {
     }
 
     #perfume {
-        width: 20em;
+        /* width: 20em; */
+        max-width: 15em;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        /* outline: red solid 2px; */
     }
 
     .price {
